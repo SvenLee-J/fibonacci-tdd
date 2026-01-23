@@ -21,7 +21,7 @@ jobs:
           java-version: '21'
           cache: maven
 
-      - name: Build (sin tests)
+      - name: Build simple
         run: mvn --batch-mode -DskipTests package
 
       - name: Run tests
